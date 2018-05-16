@@ -1,0 +1,362 @@
+/**********************
+	BASE SETUP
+**********************/
+
+* {
+	box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+nav {
+	float: right;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+	margin-right: 60px;
+}
+
+ul {
+	margin-top: 20px;
+}
+
+
+.container {
+	width: 900px;
+	max-width: 95%;
+	margin: 0 auto;
+    border-radius: 5px;
+    /*padding: 20px;*/
+}
+
+/**********************
+	HEADER
+**********************/
+
+.logo {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 100px;
+	display: inline-block;
+    padding-top: 30px;
+}
+
+.has-submenu {
+	position: relative;
+}
+
+.has-submenu:hover ul {
+	display: block;	
+}
+
+.has-submenu ul {
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	padding: 10px 0 0;
+    width: 200px;
+    margin: 0;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.has-submenu li {
+	display: block;
+}
+
+/**********************
+	INTRO
+**********************/
+
+.intro h1 {
+	margin: 50px 0;
+	text-align: center;
+}
+
+.intro p {
+	text-align: left;
+}
+
+.portfolio-grid-item {
+	background-color: black;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 1%;
+	color: white;
+	margin-bottom: 25px;
+	position: relative;
+}
+
+.portfolio-grid-item h2 {
+	font-size: 14px;
+}
+
+.portfolio-grid-item h3 {
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.portfolio-grid {
+	overflow: hidden;
+}
+
+.portfolio-grid-item a {
+	display: block;
+	padding: 20px;
+}
+
+.portfolio-grid-item:first-child {
+	background-image: url("../images/image.png");
+}
+
+.portfolio-grid-item:nth-child(2) {
+	background-image: url("../images/image.png");	
+}
+
+.portfolio-grid-item:nth-child(3) {
+	background-image: url("../images/image.png");
+}
+
+.portfolio-grid-item:last-child {
+	background-image: url("../images/image.png");
+}
+
+
+/**********************
+	ABOUT ME PAGE
+**********************/
+
+.about-me img {
+	width: 40%;
+	margin-right: 4%;
+}
+
+.about-me-content {
+	display: inline-block;
+	width: 55%;
+	vertical-align: top;
+}
+
+.about-me-content > p {
+	text-align: left;
+}
+
+/**********************
+	PROJECT PAGE
+**********************/
+
+.project-title  h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.project-brief > p {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.project-description-right,
+.project-description-left {
+	margin-bottom: 25px;
+}
+
+.project-content h2, p {
+	font-size: 16px;
+   text-align: left;
+}
+
+/**********************
+	CONTACT PAGE
+**********************/
+
+
+.contact-page h1, p {
+	margin: 15px 0;
+	text-align: center;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/**********************
+	FOOTER
+**********************/
+
+footer {
+	text-align: center;
+	background-color: black;
+	padding: 3px 0;
+	margin-top: 75px;
+}
+
+footer a {
+	color: white;
+}
+
+/**********************
+	MEDIA QUERIES
+**********************/
+
+@media (min-width: 700px) {
+	.portfolio-grid {
+		width: 650px;
+		margin: 0 auto;
+	}
+
+	.portfolio-grid-item {
+		margin-bottom: 0;
+		float: left;
+	}
+
+	.portfolio-grid-item:first-child,
+	.portfolio-grid-item:nth-child(2) {
+		width: calc(50% - 15px);
+	}
+
+	.portfolio-grid-item:first-child {
+		height: 340px;
+		margin-right: 30px;
+	}
+
+	.portfolio-grid-item:nth-child(n+3) {
+		width: calc(23.8% - 15px);
+	}
+
+	.portfolio-grid-item:nth-child(3) {
+		margin-right: 30px;
+	}
+
+	.portfolio-grid-item:nth-child(2) {
+		margin-bottom: 30px;
+	}
+
+	.portfolio-grid-item:nth-child(n+2) {
+		height: 155px;
+	}
+
+	.portfolio-grid-item a {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+	}
+
+	.project-description-right img {
+		float: left;
+		width: 40%;
+		margin-right: 5%;
+	}
+
+	.project-description-left img {
+		float: right;
+		width: 40%;
+		margin-left: 5%;
+	}
+
+	.project-description-right .project-content {
+		float: right;
+	}
+
+	.project-description-left .project-content {
+		float: left;
+	}
+
+	.project-content {
+		width: 55%;
+	}
+}
+
+@media (min-width: 1000px) {
+	.portfolio-grid {
+		width: auto;
+		margin: 0;
+	}
+
+	.portfolio-grid-item:first-child,
+	.portfolio-grid-item:nth-child(2) {
+		width: calc(50% - 25px);
+	}
+
+	.portfolio-grid-item:first-child {
+		height: 400px;
+		margin-right: 50px;
+	}
+
+	.portfolio-grid-item:nth-child(n+3) {
+		width: calc(23.6111111111% - 25px);
+	}
+
+	.portfolio-grid-item:nth-child(3) {
+		margin-right: 50px;
+	}
+
+	.portfolio-grid-item:nth-child(2) {
+		margin-bottom: 50px;
+	}
+
+	.portfolio-grid-item:nth-child(n+2) {
+		height: 175px;
+	}
