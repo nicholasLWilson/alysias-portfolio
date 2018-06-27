@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Footer from './components/Footer';
+import Navbar from  './components/Navbar';
 import './scss/style.scss';
 
 class App extends React.Component {
@@ -10,7 +11,7 @@ class App extends React.Component {
     return(
       <div>
         <main>
-          <h1>Header and Navbar</h1>
+          <Navbar />
         </main>
         <Footer />
       </div>
