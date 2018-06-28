@@ -1,6 +1,9 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  // position: fixed;
   h1 {
     margin-left: 20px;
     font-size: 20px;

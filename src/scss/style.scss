@@ -1,8 +1,32 @@
 @import "partials/footer.scss";
 @import "partials/main.scss";
 @import "partials/navbar.scss";
+@import "partials/clubsoda.scss";
 
 * {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  padding: 0 138px;
+}
+
+h2 {
+  color: #e30b5d;
+  font-size: 25px;
+  font-weight:
+}
+
+h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
 }

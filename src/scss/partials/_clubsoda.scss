@@ -1,0 +1,53 @@
+.clubOne {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  .left {
+    padding-right: 57px;
+    flex-basis: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    hr, h2 {
+      flex-basis: 100%;
+    }
+    h2:first-child {
+      margin-bottom: 0;
+    }
+    h2:nth-child(2) {
+      margin-top: 0;
+    }
+    div {
+      flex-basis: 50%;
+      &:last-child {
+        flex-basis: 100%;
+      }
+    }
+  }
+  .right {
+    padding-left: 57px;
+    text-align: right;
+    width: 585px;
+    flex-basis: 50%;
+    overflow: visible;
+    .rectangle {
+      position: relative;
+      height: 262px;
+      width: 620px;
+      margin-top: 70px;
+      margin-left: 87px;
+      z-index: -1;
+      background-color: #d30f5a;
+      border-radius: 8px;
+      right: 0;
+    }
+    img {
+      position: absolute;
+      right: 278px;
+      top: -50px;
+    }
+  }
+  .bottom {
+    flex-basis: 100%;
+  }
+}
