@@ -70,12 +70,52 @@ const ClubSoda = () => {
         </div>
       </section>
       <section className="heroTwo"><img></img></section>
-      <section className="clubTwo">
+      <section className="clubThree">
         <h2>Design Studio</h2>
         <img></img>
         <div>
           <div><p>1</p><p>We wanted to explore the idea that Club Soda could use a tag system to categorise each venue by what they offer.</p></div>
           <div><p>2</p><p>The idea that Club Soda could promote non-alcoholic drink brands as an alternative to existing alcoholic drinks. </p></div>
+        </div>
+        <h2>Usability Testing</h2>
+        <p>Task 1: Try to look for a non-alcoholic alternative for gin.</p>
+        <p>Task 2: Find the venue address that offers your chosen gin alternative.</p>
+        <img src="/assets/images/usability-testing-lofi@3x.png"/>
+        <h2 className="applying">Applying UI</h2>
+        <img src="/assets/images/ui@3x.png"/>
+        <p className="examples">Examples from our style guide and moodboard</p>
+        <h2>Information Architecture</h2>
+        <p className="conducting">By conducting an open and closed card sort, we re-categorised the menu bar and created a new site-map. </p>
+        <img src="/assets/images/information-architecture@3x.png"/>
+      </section>
+      <section className="greyBox">
+        <h2>Solution</h2>
+        <p>Best spots for low or non-alcoholic drinks.</p>
+        <img src="/assets/images/solution-1@3x.png"/>
+        <div>
+          <p>Using the search bar, look for a specific location or use current location. </p>
+          <p>See the map to show on nearby places in Aldgate East.</p>
+          <p>The Dispensary detail page with Club Soda score. </p>
+        </div>
+        <h2>Solution</h2>
+        <p>Finding recommended low/non-alcoholic drink brands and where to find them.</p>
+        <img src="/assets/images/solution-2@3x.png"/>
+        <div>
+          <p>Use the ‘recommended brands’ feature to browse low/non-alcoholic drinks.</p>
+          <p>Find Heineken 0.0 nearby locations that stock it.</p>
+          <p>Filter down results to find nearby places that stock Heinkenen 0.0</p>
+        </div>
+      </section>
+      <section className="clubFour">
+        <h2>Takeaways</h2>
+        <div className="takeaways">
+          <div>
+            <p>We gained some extremely positive feedback from Club Soda - making reference to our ability to create an innovative design that is sensitive to user pain points, whilst meeting stakeholder business goals. Additional opportunities for development would look at improving the venue on-boarding system and enhancing the desktop experience.</p>
+            <p>Club Soda are looking to use this prototype in a presentation to Heineken as an example of how drink brands can promote low/non alcoholic drinks.</p>
+            <p>Want to hear more about this project?
+            You can find the full case study here.</p>
+          </div>
+          <img />
         </div>
       </section>
     </div>

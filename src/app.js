@@ -7,7 +7,9 @@ import ClubSoda from './components/ClubSoda';
 import './scss/style.scss';
 
 class App extends React.Component {
-
+  state = {
+    page: 'ClubSoda'
+  }
   render() {
     return(
       <div>
@@ -15,7 +17,8 @@ class App extends React.Component {
           <Navbar />
         </header>
         <main>
-          <ClubSoda />
+          { this.state.page === 'ClubSoda' && <ClubSoda />}
+          {/* { this.state.page === 'Dove' && } */}
         </main>
         <Footer />
       </div>
