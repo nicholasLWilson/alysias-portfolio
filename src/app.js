@@ -4,12 +4,19 @@ import ReactDOM from 'react-dom';
 import Footer from './components/Footer';
 import Navbar from  './components/Navbar';
 import ClubSoda from './components/ClubSoda';
+import Dove from './components/Dove';
+import Home from './components/Home';
 import './scss/style.scss';
 
 class App extends React.Component {
   state = {
-    page: 'ClubSoda'
+    currentPage: 'Home'
   }
+
+  currentPage = () => {
+
+  }
+
   render() {
     return(
       <div>
@@ -17,8 +24,9 @@ class App extends React.Component {
           <Navbar />
         </header>
         <main>
-          { this.state.page === 'ClubSoda' && <ClubSoda />}
-          {/* { this.state.page === 'Dove' && } */}
+          { this.state.currentPage === 'Home' && <Home />}
+          { this.state.currentPage === 'ClubSoda' && <ClubSoda />}
+          { this.state.currentPage === 'Dove' && <Dove />}
         </main>
         <Footer />
       </div>
