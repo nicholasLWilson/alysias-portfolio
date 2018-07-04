@@ -24,7 +24,7 @@ const ClubSoda = () => {
         </div>
         <div className="right">
           <div className="rectangle"><img src="/assets/images/club-soda-banner-image.png"/></div>
-
+          <img src="assets/images/clubsodaguide.png" className="club-soda-guide"/>
         </div>
         <div className="bottom">
           <img src="/assets/images/challenges.png" />
@@ -72,7 +72,7 @@ const ClubSoda = () => {
       <section className="heroTwo"><img></img></section>
       <section className="clubThree">
         <h2>Design Studio</h2>
-        <img></img>
+        <img src="/assets/images/design-studio.png" />
         <div>
           <div><p>1</p><p>We wanted to explore the idea that Club Soda could use a tag system to categorise each venue by what they offer.</p></div>
           <div><p>2</p><p>The idea that Club Soda could promote non-alcoholic drink brands as an alternative to existing alcoholic drinks. </p></div>
