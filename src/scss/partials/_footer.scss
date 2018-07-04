@@ -14,6 +14,9 @@ footer {
   p {
     margin: 0;
   }
+  .email {
+    margin-bottom: 50px;
+  }
   .left {
     margin-left: 103px;
     margin-top: 58px;
@@ -35,8 +38,12 @@ footer {
       li {
         i {
           color: white;
-          padding-right: 23px;
+          padding-right: 15px;
           font-size: 24px;
+        }
+        img {
+          margin-top: -9px;
+          margin-left: -10px;
         }
       }
     }

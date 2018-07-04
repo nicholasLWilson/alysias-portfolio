@@ -9,11 +9,11 @@ const Footer = () => {
       </div>
       <div className="right">
         <p>Get in contact!</p>
-        <p>email: <a href="mailto:alysiapickup@gmail.com">alysiapickup@gmail.com</a></p>
+        <p className="email">email: <a href="mailto:alysiapickup@gmail.com">alysiapickup@gmail.com</a></p>
         <ul>
-          <li><a href="#"><i className="fab fa-instagram"></i></a></li>
-          <li><a href="#"><i className="fab fa-linkedin-in"></i></a></li>
-          <li></li>
+          <li><a href="https://www.instagram.com/alysiapickup/"><i className="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/alysiapickup/"><i className="fab fa-linkedin-in"></i></a></li>
+          <li><a href="https://medium.com/@alysiapickup"><img src="/assets/images/medium.png"/></a></li>
         </ul>
       </div>
     </footer>

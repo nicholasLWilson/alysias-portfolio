@@ -15,7 +15,7 @@ const Home = () => {
           <div className="club-soda">
             <h2>Club Soda</h2>
             <h3>UX/UI Design</h3>
-            <img src="/assets/artboard.png" />
+            <img src="/assets/images/artboard.png" />
           </div>
         </Link>
         <Link to="#">
