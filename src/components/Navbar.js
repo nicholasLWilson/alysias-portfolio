@@ -1,17 +1,18 @@
 import React from 'react';
+import { Link, withRouter } from 'react-router-dom';
 
 const Navbar = () => {
   return(
     <div className="nav">
-      <h1>Alysia Pickup</h1>
+      <Link to="/"><h1>Alysia Pickup</h1></Link>
       <nav>
         <ul>
-          <li>Projects</li>
-          <li>About</li>
+          <li><Link to="/clubsoda">ClubSoda</Link></li>
+          <li><Link to="/dove">Dove</Link></li>
         </ul>
       </nav>
     </div>
   );
 };
 
-export default Navbar;
+export default withRouter(Navbar);

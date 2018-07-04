@@ -1,0 +1,72 @@
+.home-container {
+  padding: 0 82px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 127px;
+  h2 {
+    margin: 0;
+    font-weight: 800;
+  }
+  h3 {
+    font-weight: 300;
+  }
+  h2, h3 {
+    color: #ffffff;
+  }
+
+  div {
+    border-radius: 6px;
+    padding-top: 42px;
+    padding-left: 33px;
+    &.right {
+      padding: 0;
+    }
+  }
+  a {
+    flex-basis: 46%;
+  }
+  .dove {
+    height: 524px;
+    background-color: #90b8c6;
+    margin-right: 13px;
+  }
+  .right {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 13px;
+    flex-basis: 46%;
+    a {
+      &:first-child {
+        flex-basis: 100%;
+      }
+      &:not(:first-child) {
+        flex-basis: 48%
+      }
+    }
+    .club-soda {
+      height: 262px;
+      background-color: #53a985;
+      margin-bottom: 30px;
+      position: relative;
+      img {
+        position: absolute;
+        width: 70%;
+        height: auto;
+        bottom: 0;
+        left: 150px;
+      }
+    }
+    .taste-buds {
+      background-color: #e45438;
+      height: 232px;
+    }
+    .take-note {
+      background-color: #b9b9b9;
+      height: 232px;
+    }
+  }
+}

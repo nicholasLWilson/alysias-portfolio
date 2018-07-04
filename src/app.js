@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Footer from './components/Footer';
 import Navbar from  './components/Navbar';
@@ -19,17 +20,21 @@ class App extends React.Component {
 
   render() {
     return(
-      <div>
-        <header>
-          <Navbar />
-        </header>
-        <main>
-          { this.state.currentPage === 'Home' && <Home />}
-          { this.state.currentPage === 'ClubSoda' && <ClubSoda />}
-          { this.state.currentPage === 'Dove' && <Dove />}
-        </main>
-        <Footer />
-      </div>
+      <BrowserRouter>
+        <div>
+          <header>
+            <Navbar />
+          </header>
+          <main>
+            <Switch>
+              <Route path="/clubsoda" component={ClubSoda}/>
+              <Route path="/dove" component={Dove}/>
+              <Route path="/" component={Home}/>
+            </Switch>
+          </main>
+          <Footer />
+        </div>
+      </BrowserRouter>
     );
   }
 
