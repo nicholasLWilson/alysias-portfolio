@@ -115,7 +115,7 @@ const ClubSoda = () => {
             <p>Want to hear more about this project?
             You can find the full case study here.</p>
           </div>
-          <img />
+          <img src="/assets/images/clubsodateam.png" className="soda-team"/>
         </div>
       </section>
     </div>
