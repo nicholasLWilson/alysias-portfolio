@@ -3,6 +3,7 @@
 @import "partials/navbar.scss";
 @import "partials/clubsoda.scss";
 @import "partials/home.scss";
+@import "partials/dove.scss";
 
 * {
   box-sizing: border-box;
@@ -18,7 +19,6 @@ main {
 }
 
 h2 {
-  color: #e30b5d;
   font-size: 25px;
 }
 

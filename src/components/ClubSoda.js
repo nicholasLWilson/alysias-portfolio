@@ -2,7 +2,7 @@ import React from 'react';
 
 const ClubSoda = () => {
   return(
-    <div>
+    <div className="club">
       <section className="clubOne">
         <div className="left">
           <h2>Club Soda:</h2>

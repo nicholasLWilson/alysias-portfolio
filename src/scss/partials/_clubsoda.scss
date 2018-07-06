@@ -1,212 +1,217 @@
-section {
-  margin: 0 138px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  .left {
-    padding-right: 57px;
-    flex-basis: 50%;
+.club{
+  section {
+    margin: 0 138px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    hr, h2 {
+    .left {
+      padding-right: 57px;
+      flex-basis: 50%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      hr, h2 {
+        flex-basis: 100%;
+      }
+      h2 {
+        color: #e30b5d;
+      }
+      hr {
+        margin: 30px 0;
+      }
+      h2:first-child {
+        margin-bottom: 0;
+      }
+      h2:nth-child(2) {
+        margin-top: 0;
+        margin-bottom: 40px;
+      }
+      div {
+        flex-basis: 45%;
+      }
+    }
+    .right {
+      padding-left: 57px;
+      text-align: right;
+      width: 585px;
+      flex-basis: 50%;
+      overflow: visible;
+      .club-soda-guide {
+        width: 400px;
+        height:auto;
+        margin-top: 161px;
+      }
+      .rectangle {
+        position: relative;
+        height: 262px;
+        width: 620px;
+        margin-top: 70px;
+        margin-left: 87px;
+        z-index: -1;
+        background-color: #d30f5a;
+        border-radius: 8px;
+        right: 0;
+        img {
+          position: absolute;
+          right: 278px;
+          top: -50px;
+        }
+      }
+    }
+    .bottom {
       flex-basis: 100%;
     }
-    hr {
-      margin: 30px 0;
-    }
-    h2:first-child {
-      margin-bottom: 0;
-    }
-    h2:nth-child(2) {
-      margin-top: 0;
-      margin-bottom: 40px;
-    }
-    div {
-      flex-basis: 45%;
+  }
+
+  .clubOne {
+    .bottom {
+      width: 1065px;
+      margin-bottom: 28px;
     }
   }
-  .right {
-    padding-left: 57px;
-    text-align: right;
-    width: 585px;
-    flex-basis: 50%;
-    overflow: visible;
-    .club-soda-guide {
-      width: 400px;
-      height:auto;
-      margin-top: 161px;
-    }
-    .rectangle {
-      position: relative;
-      height: 262px;
-      width: 620px;
-      margin-top: 70px;
-      margin-left: 87px;
-      z-index: -1;
-      background-color: #d30f5a;
-      border-radius: 8px;
-      right: 0;
+
+  .heroOne, .heroTwo {
+    width: 100%;
+    height: 268px;
+    background-size: contain;
+    margin: 0;
+  }
+
+  .heroOne {
+    background-image: url('/assets/images/user-research@3x.png');
+  }
+
+  .heroTwo {
+    background-image: url('/assets/images/design-phase@3x.png');
+  }
+
+  .clubTwo {
+    margin-top: 90px;
+    .right {
       img {
-        position: absolute;
-        right: 278px;
-        top: -50px;
+        margin-top: 34px;
+      }
+    }
+    .left {
+      .personas {
+        margin-top: 141px;
+      }
+    }
+    .bottom {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 88px;
+      margin-bottom: 82px;
+      .statement {
+        width: 315px;
+      }
+      .sandra {
+        flex-basis: 50%;
+        display: flex;
+        .sandraimg {
+          margin-right: 37px;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+        }
+      }
+      .kristin {
+        flex-basis: 50%;
+        display: flex;
+        .kristinimg {
+          margin-right: 37px;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+        }
       }
     }
   }
-  .bottom {
-    flex-basis: 100%;
-  }
-}
 
-.clubOne {
-  .bottom {
-    width: 1065px;
-    margin-bottom: 28px;
-  }
-}
-
-.heroOne, .heroTwo {
-  width: 100%;
-  height: 268px;
-  background-size: contain;
-  margin: 0;
-}
-
-.heroOne {
-  background-image: url('/assets/images/user-research@3x.png');
-}
-
-.heroTwo {
-  background-image: url('/assets/images/design-phase@3x.png');
-}
-
-.clubTwo {
-  margin-top: 90px;
-  .right {
+  .clubThree {
+    margin-top: 66px;
+    display: flex;
+    flex-direction: column;
     img {
-      margin-top: 34px;
+      width: 100%;
+      height: auto;
     }
-  }
-  .left {
-    .personas {
-      margin-top: 141px;
+    .applying {
+      margin-bottom: 64px;
     }
-  }
-  .bottom {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 88px;
-    margin-bottom: 82px;
-    .statement {
-      width: 315px;
+    .examples {
+      text-align: center;
+      margin-top: 21px;
+      margin-bottom: 88px;
     }
-    .sandra {
-      flex-basis: 50%;
-      display: flex;
-      .sandraimg {
-        margin-right: 37px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-      }
+    .conducting {
+      width: 600px;
+      margin-bottom: -24px;
     }
-    .kristin {
-      flex-basis: 50%;
-      display: flex;
-      .kristinimg {
-        margin-right: 37px;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-      }
-    }
-  }
-}
-
-.clubThree {
-  margin-top: 66px;
-  display: flex;
-  flex-direction: column;
-  img {
-    width: 100%;
-    height: auto;
-  }
-  .applying {
-    margin-bottom: 64px;
-  }
-  .examples {
-    text-align: center;
-    margin-top: 21px;
-    margin-bottom: 88px;
-  }
-  .conducting {
-    width: 600px;
-    margin-bottom: -24px;
-  }
-  div {
-    margin-top: 34px;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 73px;
-    p {
-      margin: 0;
-      &:first-child {
-        font-size: 36px;
-        margin-right: 19px;
-      }
-      &:last-child {
-        width: 377px;
-      }
-    }
-  }
-}
-
-.greyBox {
-  margin: 0;
-  margin-top: 81px;
-  background-color: #f5f5f5;
-  display: flex;
-  flex-direction: column;
-  padding: 0 138px 72px;
-  h2 {
-    margin-top: 52px;
-  }
-  p {
-    margin-bottom: 32px;
-  }
-  img {
-    width: 100%;
-    height: auto;
-  }
-  div {
-    display: flex;
-    justify-content: space-around;
-    p {
-      width: 226px;
-      margin-bottom: 14px;
-      &:nth-child(2) {
-        margin: 14px 135px;
-      }
-    }
-  }
-}
-
-.clubFour {
-  padding-top: 64px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  .soda-team {
-    width: 538px;
-    height: auto;
-    margin-bottom: 112px;
-  }
-  .takeaways {
-    display: flex;
-    justify-content: space-between;
     div {
-      width: 555px;
+      margin-top: 34px;
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 73px;
+      p {
+        margin: 0;
+        &:first-child {
+          font-size: 36px;
+          margin-right: 19px;
+        }
+        &:last-child {
+          width: 377px;
+        }
+      }
+    }
+  }
+
+  .greyBox {
+    margin: 0;
+    margin-top: 81px;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    padding: 0 138px 72px;
+    h2 {
+      margin-top: 52px;
+    }
+    p {
+      margin-bottom: 32px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+    div {
+      display: flex;
+      justify-content: space-around;
+      p {
+        width: 226px;
+        margin-bottom: 14px;
+        &:nth-child(2) {
+          margin: 14px 135px;
+        }
+      }
+    }
+  }
+
+  .clubFour {
+    padding-top: 64px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    .soda-team {
+      width: 538px;
+      height: auto;
+      margin-bottom: 112px;
+    }
+    .takeaways {
+      display: flex;
+      justify-content: space-between;
+      div {
+        width: 555px;
+      }
     }
   }
 }
