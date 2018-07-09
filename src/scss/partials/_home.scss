@@ -32,6 +32,16 @@
     height: 524px;
     background-color: #90b8c6;
     margin-right: 13px;
+    position: relative;
+    img {
+      position: absolute;
+      bottom: 0;
+      z-index: 100;
+      width: 100%;
+      height: auto;
+      right: -75px;
+      top: -5px;
+    }
   }
   .right {
     display: flex;

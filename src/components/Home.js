@@ -8,6 +8,7 @@ const Home = () => {
         <div className="dove">
           <h2>Dove Active</h2>
           <h3>UX/UI Design</h3>
+          <img src="/assets/images/DoveActive.png"></img>
         </div>
       </Link>
       <div className="right">

@@ -4,8 +4,8 @@ const Footer = () => {
   return(
     <footer>
       <div className="left">
-        <p>Hi, my name is Alysia! I’m a UX Designer living and working in London...</p>
-        <p className="readmore">Read more <a href="">about me here.</a></p>
+        <p>Hi! I’m Alysia, a UX designer from Camberwell, London. You’ve looked at my work, now you can find out more <a href="">here!</a></p>
+        <p>Made by <a href="http://thisisnic.com">thisisnic.com</a></p>
       </div>
       <div className="right">
         <p>Get in contact!</p>

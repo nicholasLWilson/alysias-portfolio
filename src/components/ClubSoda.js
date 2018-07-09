@@ -45,7 +45,7 @@ const ClubSoda = () => {
         <div className="bottom">
           <div className="sandra">
             <div className="sandraimg">
-              <div><img src="/assets/images/personas.png"></img></div>
+              <div><img src="/assets/images/personas.png"/></div>
               <p><strong>Sandra</strong></p>
             </div>
             <div className="statement">
@@ -57,7 +57,7 @@ const ClubSoda = () => {
           </div>
           <div className="kristin">
             <div className="kristinimg">
-              <div><img src="/assets/images/personas-1.png"></img></div>
+              <div><img src="/assets/images/personas-1.png"/></div>
               <p><strong>Kristin</strong></p>
             </div>
             <div className="statement">
