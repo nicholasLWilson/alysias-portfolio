@@ -18,7 +18,7 @@ const ClubSoda = () => {
           <hr/>
           <p>Group project with Daniel Kwok, Andrea Fiorini and Sam Awad 2 weeks - April 2018.</p>
           <h2>Opportunity</h2>
-          <p>Club Soda is a social movement aimed at helping &#39mindful drinkers&#39 find pubs, bar and restaurants to cater for people who are trying to cut down on their drinking behaviours.</p>
+          <p>Club Soda is a social movement aimed at helping 'mindful drinkers' find pubs, bar and restaurants to cater for people who are trying to cut down on their drinking behaviours.</p>
           <h2>Challenges</h2>
           <p>I was responsible for creating a set of task scenarios that could test the current website and identify the existing issues.</p>
         </div>
@@ -35,10 +35,10 @@ const ClubSoda = () => {
         <div className="left">
           <h2>Research findings</h2>
           <p>From our user interviews, we conducted an affinity map to understand the core motivations and emotions behind our ‘mindful drinkers.’ We found that mindful drinkers have various reasons and motivations behind changing their drinking behaviours.</p>
-          <p>Social pressure, isolation, and the fear of judgement within a social environment were blah blah blah blah blah. </p>
+          <p><strong>Social pressure, isolation, and the fear of judgement</strong> within a social environment were all key factors that motivated people to change their behaviours.</p>
           <h2 className="personas">Personas</h2>
           <p>From our research, we were then able to create 2 specific user groups and the reasons why they wanted to change their drinking behaviours:</p>
-          <p>They don&#39t like who they become when they drink. 
+          <p>They don't like who they become when they drink. 
           They are concerned about their health.</p>
         </div>
         <div className="right"><img src="/assets/images/clubsoda-quotes.png"/></div>
@@ -52,7 +52,7 @@ const ClubSoda = () => {
               <p><strong>“Mindful drinking to me is looking after my body, health and wellness.”</strong></p>
               <p>Diagnosed with IBS.</p>
               <p>Wants to look after her health by eating well and drinking no alcohol.</p>
-              <p>Her main goal is to maintain her social life without feeling excluded now she doesn&#39t drink.</p>
+              <p>Her main goal is to maintain her social life without feeling excluded now she doesn't drink.</p>
             </div>
           </div>
           <div className="kristin">

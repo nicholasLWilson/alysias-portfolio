@@ -71,7 +71,7 @@ const Dove = () => {
       <section className="doveThree">
         <h2>Design studio</h2>
         <img src="/assets/images/group-7.png"/>
-        <div>
+        <div className="studio">
           <div><p>1</p><p>How do we encourage healthier habits and activities and keep users engaged?
           Fun
           Encouraging nudge behaviours
@@ -83,6 +83,14 @@ const Dove = () => {
         </div>
         <h2>User testing</h2>
         <p>I was responsible for facilitating and running the usability testing, then analysing the results to implement into a low-fidelity wireframes. In testing, some users found it difficult to navigate through the choice of healthier habits and some did not realise that they could interact with certain areas of the interface.</p>
+        <div className="user-testing">
+          <div>
+            <p>Did not recognise that they could swipe for alternatives.</p>
+            <p>Did not reliably associate the slider with task duration.</p>
+          </div>
+          <img src="/assets/images/group-6.png"/>
+          <p className="r-paragraph">Lack of clear metrics indicating progress.</p>
+        </div>
         <h2>UI & Body Positivity</h2>
         <p>As our app was focussed around body positivity, it was important to use a more abstract figure throughout our visual design as opposed to a 'real life' figure. This would ensure that none of our users would aspire to a certain body type. I was responsible for delivering a compelling mood board and style guide that explored colour, iconography and typeface.
         </p>

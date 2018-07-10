@@ -1,0 +1,28 @@
+.about {
+  padding-left: 135px;
+  display: flex;
+  margin-bottom: 93px;
+  .images {
+    display: flex;
+    flex-direction: column;
+    img {
+      width: 400px;
+      height: auto;
+      &:first-child {
+        margin-bottom: 31px;
+      }
+    }
+  }
+  .paragraphs {
+    margin-left: 104px;
+    width: 638px;
+    display: flex;
+    flex-direction: column;
+    .qualifications {
+      margin-bottom: 20px;
+      p {
+        margin: 0;
+      }
+    }
+  }
+}

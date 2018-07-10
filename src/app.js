@@ -7,6 +7,7 @@ import Navbar from  './components/Navbar';
 import ClubSoda from './components/ClubSoda';
 import Dove from './components/Dove';
 import Home from './components/Home';
+import About from './components/About';
 import './scss/style.scss';
 
 class App extends React.Component {
@@ -29,6 +30,7 @@ class App extends React.Component {
             <Switch>
               <Route path="/clubsoda" component={ClubSoda}/>
               <Route path="/dove" component={Dove}/>
+              <Route path="/about" component={About}/>
               <Route path="/" component={Home}/>
             </Switch>
           </main>
