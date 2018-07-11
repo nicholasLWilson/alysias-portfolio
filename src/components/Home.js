@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return(
     <div className="home-container">
+      <h1>You've come to the right place!<br /> I'm Alysia, a UX/UI Designer.</h1>
       <Link to="/dove">
         <div className="dove">
           <h2>Dove Active</h2>
